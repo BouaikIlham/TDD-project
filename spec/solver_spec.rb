@@ -19,16 +19,22 @@ RSpec.describe 'Solver' do
 
   context 'should handle fizzbuzz function' do
     it 'should return fizzbuzz when number divisible by 3 and 5' do
-      expect (@solver.fizzbuzz(15)).to eq 'fizzbuzz'
+      expect(@solver.fizzbuzz(15)).to eq 'fizzbuzz'
     end
     it 'should return fizz when number divisible by 3' do
-      expect (@solver.fizzbuzz(3)).to eq 'fizz'
+      expect(@solver.fizzbuzz(3)).to eq 'fizz'
     end
     it 'should return buzz when number divisible by 5' do
-      expect (@solver.fizzbuzz(5)).to eq 'buzz'
+      expect(@solver.fizzbuzz(5)).to eq 'buzz'
     end
     it 'should return number if not divisible by 3 or 5' do
-      expect (@solver.fizzbuzz(1)).to eq '1'
+      expect(@solver.fizzbuzz(1)).to eq '1'
+    end
+  end
+
+  context 'Should handle reverse function' do
+    it 'Should return the reversed word' do
+      expect(@solver.reverse('Hello')).to eq 'olleH'
     end
   end
 end
