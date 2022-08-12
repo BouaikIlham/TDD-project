@@ -13,4 +13,7 @@ RSpec.describe 'Solver' do
   it 'Should return 1 if 0 is given' do
     expect(@solver.factorial(0)).to eq 1
   end
+  it 'Should throw an error when negative is entered' do
+    expect { @solver.factorial(-1) }.to raise_error(RangeError, 'A negative number is not allowed')
+  end
 end
