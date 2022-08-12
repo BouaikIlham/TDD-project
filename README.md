@@ -2,7 +2,7 @@
 
 # TDD Project
 
-> In this project we implement a class with some methods, but we do it by doing test-driven development (TDD). so the idea is to write tests first and then the code.
+> In this project we implemented a class with some methods, but we did it by doing test-driven development (TDD). The idea was to write tests first and then the code.
 
 
 ## Technologies used:
@@ -13,9 +13,9 @@
 ## Getting Started
 
 - clone the repository by running
-  git clone `https://github.com/Kwentsir/OOP_school_library.git`
+  git clone `https://github.com/BouaikIlham/TDD-project.git`
 - navigate to the folder
-  cd `OOP_school_library`
+  cd `TDD-project`
 
 ## Author
 
